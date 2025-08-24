@@ -4,7 +4,8 @@
   --color-Text: #333;
   --color-Text-Second: #555;
   --color-Background: #fff;
-  --color-Background-Second: #f3f3f3;
+  --color-Background-Second: #f8f8f8;
+  --color-Border: #eee;
 }
 
 .dark {
@@ -12,9 +13,21 @@
   --color-Text-Second: #ddd;
   --color-Background: #222;
   --color-Background-Second: #444;
+  --color-Border: #555;
+}
+
+body {
+  font-family: poppins;
+  font-size: 15px;
+  color: var(--color-Text);
 }
 
 .Pagearea {
   padding-left: 10%;
   padding-right: 10%;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
 }

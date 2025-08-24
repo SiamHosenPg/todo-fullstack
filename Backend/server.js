@@ -40,4 +40,10 @@ app.post("/data", (req, res) => {
   res.status(201).json(newTusk);
 });
 
+app.delete("/data/:id", (req, res) => {
+  const Todoid = parseInt(req.params.id);
+  TuskData.filter((t) => t.id !== Todoid);
+  res.json({ message: "Data Delete" });
+});
+
 app.listen(port, console.log(`http://localhost:${port}/data`));
