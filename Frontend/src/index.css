@@ -13,3 +13,8 @@
   --color-Background: #222;
   --color-Background-Second: #444;
 }
+
+.Pagearea {
+  padding-left: 10%;
+  padding-right: 10%;
+}
